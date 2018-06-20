@@ -37,7 +37,7 @@
  <ThingDef ParentName="ResourceBase">
     <defName>CoalOre</defName>
     <label>coal ore</label>
-    <description>Rough coal chunks cut from rock.Dirty, not good for burning, but can still burn.</description>
+    <description>Rough coal chunks cut from rock. Dirty, not good for burning, but can still burn.</description>
     <graphicData>
       <texPath>Things/Items/Ores/ore_coal_raw</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -61,6 +61,70 @@
 	  <li>Ore</li>
 	  <li>Metallurgy</li>
 	  <li>Coal</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+	
+<!--=============== COPPER ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>CopperOre</defName>
+    <label>copper ore</label>
+    <description>Impure copper mixed with rock.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_copper_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Copper</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+<!--=============== BAUXITE ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BauxiteOre</defName>
+    <label>bauxite ore</label>
+    <description>Impure bauxite.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_bauxite_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Bauxite</li> 
     </tradeTags>
     <drawGUIOverlay>true</drawGUIOverlay>
     <techLevel>Neolithic</techLevel>
