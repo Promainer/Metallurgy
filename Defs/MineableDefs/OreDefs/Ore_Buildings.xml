@@ -156,5 +156,285 @@
       </mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
+	
+     <!--=============== TUNGSTEN ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableTungstenBasic</defName>
+    <label>basic tungsten ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>950</MaxHitPoints>
+    </statBases>
+    <description>Natural tungsten ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>TungstenOre</mineableThing>
+      <mineableYield>9</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>300</min>
+        <max>700</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== TIN ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableTinBasic</defName>
+    <label>basic tin ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>750</MaxHitPoints>
+    </statBases>
+    <description>Natural tin ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>TinOre</mineableThing>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>500</min>
+        <max>1500</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== NICKEL ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableNickelBasic</defName>
+    <label>basic nickel ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <description>Natural nickel ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>NickelOre</mineableThing>
+      <mineableYield>13</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>400</min>
+        <max>1000</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== ZINC ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableZincBasic</defName>
+    <label>basic zinc ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <description>Natural zinc ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>ZincOre</mineableThing>
+      <mineableYield>18</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>250</min>
+        <max>800</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== LEAD ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableLeadBasic</defName>
+    <label>basic lead ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1250</MaxHitPoints>
+    </statBases>
+    <description>Natural lead ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>LeadOre</mineableThing>
+      <mineableYield>11</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>300</min>
+        <max>700</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== COBALT ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableCobaltBasic</defName>
+    <label>basic cobalt ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+    </statBases>
+    <description>Natural cobalt ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CobaltOre</mineableThing>
+      <mineableYield>15</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>150</min>
+        <max>650</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== TITANIUM ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableTitaniumBasic</defName>
+    <label>basic titanium ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2250</MaxHitPoints>
+    </statBases>
+    <description>Natural titanium ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>TitaniumOre</mineableThing>
+      <mineableYield>6</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>50</min>
+        <max>200</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== PLATINUM ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineablePlatinumBasic</defName>
+    <label>basic platinum ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1750</MaxHitPoints>
+    </statBases>
+    <description>Natural platinum ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>PlatinumOre</mineableThing>
+      <mineableYield>5</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>80</min>
+        <max>175</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== LITHIUM ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableLithiumBasic</defName>
+    <label>basic lithium ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <description>Natural lithium ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>LithiumOre</mineableThing>
+      <mineableYield>5</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>50</min>
+        <max>300</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+	
+     <!--=============== DIAMOND ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableDiamondBasic</defName>
+    <label>basic diamond ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>2500</MaxHitPoints>
+    </statBases>
+    <description>Natural diamond ore.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>DiamondOre</mineableThing>
+      <mineableYield>3</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>10</min>
+        <max>25</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
   
 </Defs>
