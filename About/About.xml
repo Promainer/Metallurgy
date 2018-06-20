@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Metallurgy</name>
+  <author>Napon</author>
+  <targetVersion>0.18.0</targetVersion>
+  <description>Transforms mining, smelting and all sorts of industry.</description>
+</ModMetaData>
