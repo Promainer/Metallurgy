@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <ThingDef ParentName="ChunkBase">
+    <defName>ChunkScrapIron</defName>
+    <label>scrap iron chunk</label>
+    <description>A chunk of iron scrap. Not very useful in its current form but it's possible to melt down into more useful forms.</description>
+    <graphicData>
+      <texPath>Things/Items/Scrap/scrap_iron</texPath>  
+    </graphicData>
+    <statBases>
+      <Mass>6</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+	<tradeTags>
+      <li>IronScrap</li>
+	  <li>Scrap</li>
+	  <li>Metallurgy</li>
+	  <li>Iron</li> 
+    </tradeTags>
+  </ThingDef>
+
+</Defs>
