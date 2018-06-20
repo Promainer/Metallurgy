@@ -130,4 +130,292 @@
     <techLevel>Neolithic</techLevel>
   </ThingDef>
   
+  <!--=============== TUNGSTEN ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>TungstenOre</defName>
+    <label>tungsten ore</label>
+    <description>Impure tungsten.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_tungsten_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Tungsten</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== TIN ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>TinOre</defName>
+    <label>tin ore</label>
+    <description>Impure tin.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_tin_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Tin</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== NICKEL ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>NickelOre</defName>
+    <label>nickel ore</label>
+    <description>Impure nickel.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_nickel_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Nickel</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== LEAD ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LeadOre</defName>
+    <label>lead ore</label>
+    <description>Impure lead.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_lead_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Lead</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== COBALT ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>CobaltOre</defName>
+    <label>cobalt ore</label>
+    <description>Impure cobalt.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_cobalt_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Cobalt</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== TITANIUM ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>TitaniumOre</defName>
+    <label>bauxite ore</label>
+    <description>Impure titanium.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_titanium_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Titanium</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== PLATINUM ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>PlatinumOre</defName>
+    <label>platinum ore</label>
+    <description>Impure platinum.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_platinum_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Platinum</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
+  <!--=============== DIAMOND ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>DiamondOre</defName>
+    <label>diamond ore</label>
+    <description>Impure diamond ore.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_diamond_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>5</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Diamond</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+
+   <!--=============== LITHIUM ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>LithiumOre</defName>
+    <label>lithium ore</label>
+    <description>Impure lithium.Can be refined for certain uses such as batteries.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_lithium_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.8</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Lithium</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
+  
 </Defs>
