@@ -7,7 +7,7 @@
     <label>iron ore</label>
     <description>Impure iron mixed with rock.</description>
     <graphicData>
-      <texPath>Things/Items/Ores/iron_ore</texPath>
+      <texPath>Things/Items/Ores/ore_iron</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -39,7 +39,7 @@
     <label>coal ore</label>
     <description>Rough coal chunks cut from rock.Dirty, not good for burning, but can still burn.</description>
     <graphicData>
-      <texPath>Things/Items/Ores/coal_ore_raw</texPath>
+      <texPath>Things/Items/Ores/ore_coal_raw</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
