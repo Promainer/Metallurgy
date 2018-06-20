@@ -73,4 +73,88 @@
     </building>
   </ThingDef>
 
+  <!--=============== COAL ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableCoalBasic</defName>
+    <label>basic coal ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(0,0,0)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+    <description>Natural coal ore, gives dirty coal ore which can be used as fuel or refined for better products</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CoalOre</mineableThing>
+      <mineableYield>15</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>50</min>
+        <max>100</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+   <!--=============== COPPER ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableCopperBasic</defName>
+    <label>basic copper ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(45,45,45)</color>
+      <colorTwo>(0,0,0)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <description>Natural copper ore, can be refined for various uses,such as construction, electronics, or else.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CopperOre</mineableThing>
+      <mineableYield>20</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>500</min>
+        <max>1000</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+     <!--=============== BAUXITE ORE ====================-->
+
+ <ThingDef ParentName="RockBase">
+    <defName>MineableBauxiteBasic</defName>
+    <label>basic bauxite ore</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(210,123,100)</color>
+      <colorTwo>(255,100,187)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+    </statBases>
+    <description>Natural bauxite ore, can be refined into aluminium.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>BauxiteOre</mineableThing>
+      <mineableYield>8</mineableYield>
+      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>200</min>
+        <max>1000</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
 </Defs>
