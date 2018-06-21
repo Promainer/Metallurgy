@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+  
+  <WorkGiverDef>
+    <defName>RefineMetal</defName>
+    <label>refine</label>
+    <giverClass>AI.WorkGiver_DoBill</giverClass>
+    <workType>Refining</workType>
+	<priorityInType>100</priorityInType>
+	<fixedBillGiverDefs>
+      <li>BeaufortCastingStationTier1</li>
+    </fixedBillGiverDefs>
+    <verb>refine</verb>
+    <gerund>refining</gerund>
+	<requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+<WorkGivers>
