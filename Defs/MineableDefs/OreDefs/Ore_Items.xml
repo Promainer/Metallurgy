@@ -194,6 +194,38 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <techLevel>Neolithic</techLevel>
   </ThingDef>
+	
+  <!--=============== ZINC ORE ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>ZincOre</defName>
+    <label>zinc ore</label>
+    <description>Impure zinc.</description>
+    <graphicData>
+      <texPath>Things/Items/Ores/ore_zinc_raw</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+     <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Ore</li>
+	  <li>Metallurgy</li>
+	  <li>Zinc</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+  </ThingDef>
   
   <!--=============== NICKEL ORE ====================-->
   <ThingDef ParentName="ResourceBase">
