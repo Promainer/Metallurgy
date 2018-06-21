@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+	<RecipeDef>
+	
+		<!-- MAKE BEAUFORT IRON BAR -->
+	
+		<defName>RefineRaw</defName>
+		<label>Refine raw x ore</label>
+		<description>Refines raw x ore, to make it usable in various crafting recipes.</description>
+		<jobString>Refining x.</jobString>
+		<workAmount>5</workAmount>
+		<products>
+			<li>
+				<thingDef>BarIronBeaufort</thingDef>
+				<count>1</count>
+			</li>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>IronLump</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+	<RecipeDef>
+</RecipeDefs>
