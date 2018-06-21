@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--=============== IRON BEAUFORT BAR ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BarIronBeaufort</defName>
+    <label>iron beaufort bar</label>
+    <description>A simple iron bar used for basic crafting recipes.</description>
+    <graphicData>
+      <texPath>Things/Items/Bars/bar_beaufort_iron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.75</MarketValue>
+      <MaxHitPoints>750</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Bar</li>
+	  <li>Metallurgy</li>
+	  <li>Iron</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Medieval</techLevel>
+</ThingDef>
+
+</Defs>

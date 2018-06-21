@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--=============== IRON LUMP ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>IronLump</defName>
+    <label>iron lump</label>
+    <description>A chunk of raw iron.</description>
+    <graphicData>
+      <texPath>Things/Items/Lumps/lump_iron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>9999</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>0.1</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>0.1</Mass>
+    </statBases>
+	<thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ResourcesRaw</li>
+	  <li>Lump</li>
+	  <li>Metallurgy</li>
+	  <li>Iron</li> 
+    </tradeTags>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <techLevel>Neolithic</techLevel>
+</ThingDef>
+
+</Defs>
