@@ -185,25 +185,25 @@
     </building>
   </ThingDef>
 	
-     <!--=============== TIN ORE ====================-->
+     <!--=============== CASSITERITE ORE (TIN) ====================-->
 
  <ThingDef ParentName="RockBase">
-    <defName>MineableTinBasic</defName>
-    <label>basic tin ore</label>
+    <defName>MineableCassiteriteBasic</defName>
+    <label>basic cassiterite ore</label>
     <graphicData>
       <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <color>(45,45,45)</color>
-      <colorTwo>(255,255,255)</colorTwo> <!--TO DO-->
+      <color>(127,106,105)</color>
+      <colorTwo>(195,161,41)</colorTwo> <!--TO DO-->
     </graphicData>
     <statBases>
       <MaxHitPoints>750</MaxHitPoints>
     </statBases>
-    <description>Natural tin ore.</description>
+    <description>Natural cassiterite ore.Can be refined to gain tin,and other products.</description>
     <building>
       <isResourceRock>true</isResourceRock>
-      <mineableThing>TinOre</mineableThing>
+      <mineableThing>CassiteriteOre</mineableThing>
       <mineableYield>20</mineableYield>
       <mineableScatterCommonality>1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
