@@ -7,7 +7,7 @@
     <label>iron beaufort bar</label>
     <description>A simple iron bar used for basic crafting recipes.</description>
     <graphicData>
-      <texPath>Things/Items/Bars/bar_beaufort_iron</texPath>
+      <texPath>Things/Items/Bars/bar_iron_beaufort</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
