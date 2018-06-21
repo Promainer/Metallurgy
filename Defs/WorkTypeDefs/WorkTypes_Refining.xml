@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkTypeDefs>
+
+  <WorkTypeDef>
+    <defName>Refining</defName>
+    <labelShort>Refine</labelShort>
+    <pawnLabel>Metalsmith</pawnLabel>
+    <gerundLabel>Refining</gerundLabel>
+    <description>Refine raw ores in order to have usable metals.</description>
+    <verb>Refine</verb>
+    <naturalPriority>650</naturalPriority>
+    <requireCapableColonist>true</requireCapableColonist>
+	<relevantSkills>
+      <li>Crafting</li>
+    </relevantSkills>
+    <workTags>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+    </workTags>
+  </WorkTypeDef>
+  
+</WorkTypeDefs>
