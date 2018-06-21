@@ -227,38 +227,6 @@
     <techLevel>Neolithic</techLevel>
   </ThingDef>
   
-  <!--=============== NICKEL ORE ====================-->
-  <ThingDef ParentName="ResourceBase">
-    <defName>NickelOre</defName>
-    <label>nickel ore</label>
-    <description>Impure nickel.</description>
-    <graphicData>
-      <texPath>Things/Items/Ores/ore_nickel_raw</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Metal_Drop</soundDrop>
-    <stackLimit>9999</stackLimit>
-    <useHitPoints>true</useHitPoints>
-    <statBases>
-      <MarketValue>0.1</MarketValue>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Mass>0.1</Mass>
-    </statBases>
-	<thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
-    <tradeTags>
-      <li>ResourcesRaw</li>
-	  <li>Ore</li>
-	  <li>Metallurgy</li>
-	  <li>Nickel</li> 
-    </tradeTags>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <techLevel>Neolithic</techLevel>
-  </ThingDef>
-  
   <!--=============== LEAD ORE ====================-->
   <ThingDef ParentName="ResourceBase">
     <defName>LeadOre</defName>
@@ -291,13 +259,13 @@
     <techLevel>Neolithic</techLevel>
   </ThingDef>
   
-  <!--=============== COBALT ORE ====================-->
+  <!--=============== SKUTTERUDITE ORE ====================-->
   <ThingDef ParentName="ResourceBase">
-    <defName>CobaltOre</defName>
-    <label>cobalt ore</label>
-    <description>Impure cobalt.</description>
+    <defName>SkutteruditeOre</defName>
+    <label>skutterudite ore</label>
+    <description>Skudderite rock which can be split into cobalt oxide and nickel oxide which can be further refined into nickel and cobalt.</description>
     <graphicData>
-      <texPath>Things/Items/Ores/ore_cobalt_raw</texPath>
+      <texPath>Things/Items/Ores/ore_skutterudite_raw</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -315,9 +283,11 @@
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
-	  <li>Ore</li>
-	  <li>Metallurgy</li>
-	  <li>Cobalt</li> 
+	    <li>Ore</li>
+	    <li>Metallurgy</li>
+	    <li>Cobalt</li> 
+	    <li>Nickel</li>
+	    <li>Skutterudite</li>
     </tradeTags>
     <drawGUIOverlay>true</drawGUIOverlay>
     <techLevel>Neolithic</techLevel>
