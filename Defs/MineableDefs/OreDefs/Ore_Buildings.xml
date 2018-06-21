@@ -177,7 +177,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>TungstenOre</mineableThing>
       <mineableYield>9</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.8</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>300</min>
         <max>700</max>
@@ -233,7 +233,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>NickelOre</mineableThing>
       <mineableYield>13</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.7</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>400</min>
         <max>1000</max>
@@ -261,7 +261,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>ZincOre</mineableThing>
       <mineableYield>18</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.7</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>250</min>
         <max>800</max>
@@ -289,7 +289,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>LeadOre</mineableThing>
       <mineableYield>11</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.6</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>300</min>
         <max>700</max>
@@ -317,7 +317,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>CobaltOre</mineableThing>
       <mineableYield>15</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.2</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>150</min>
         <max>650</max>
@@ -345,7 +345,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>TitaniumOre</mineableThing>
       <mineableYield>6</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>50</min>
         <max>200</max>
@@ -373,7 +373,7 @@
       <isResourceRock>true</isResourceRock>
       <mineableThing>PlatinumOre</mineableThing>
       <mineableYield>5</mineableYield>
-      <mineableScatterCommonality>1</mineableScatterCommonality>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>80</min>
         <max>175</max>
@@ -428,8 +428,8 @@
     <building>
       <isResourceRock>true</isResourceRock>
       <mineableThing>DiamondOre</mineableThing>
-      <mineableYield>3</mineableYield>
-      <mineableScatterCommonality>0.3</mineableScatterCommonality>
+      <mineableYield>1</mineableYield>
+      <mineableScatterCommonality>0.1</mineableScatterCommonality>
       <mineableScatterLumpSizeRange>
         <min>10</min>
         <max>25</max>
