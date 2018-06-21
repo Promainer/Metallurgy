@@ -162,13 +162,13 @@
     <techLevel>Neolithic</techLevel>
   </ThingDef>
   
-  <!--=============== TIN ORE ====================-->
+  <!--=============== CASSITERITE ORE (TIN)====================-->
   <ThingDef ParentName="ResourceBase">
-    <defName>TinOre</defName>
-    <label>tin ore</label>
-    <description>Impure tin.</description>
+    <defName>CassiteriteOre</defName>
+    <label>cassiterite ore</label>
+    <description>Rock ore containg tin among other things.</description>
     <graphicData>
-      <texPath>Things/Items/Ores/ore_tin_raw</texPath>
+      <texPath>Things/Items/Ores/ore_cassiterite_raw</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -189,6 +189,7 @@
 	  <li>Ore</li>
 	  <li>Metallurgy</li>
 	  <li>Tin</li> 
+	  <li>Cassiterite</li>
     </tradeTags>
     <drawGUIOverlay>true</drawGUIOverlay>
     <techLevel>Neolithic</techLevel>
