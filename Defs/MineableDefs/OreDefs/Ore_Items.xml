@@ -21,7 +21,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -54,7 +54,7 @@
       <Flammability>2.0</Flammability>	  
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
 	<tradeTags>
       <li>ResourcesRaw</li>
@@ -86,7 +86,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -118,7 +118,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -150,7 +150,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -182,7 +182,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -214,7 +214,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -246,7 +246,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -278,7 +278,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -310,7 +310,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -342,7 +342,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -374,7 +374,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
@@ -406,7 +406,7 @@
       <Mass>0.1</Mass>
     </statBases>
 	<thingCategories>
-      <li>Items</li>
+     <li>ResourcesRaw</li>
     </thingCategories>
     <tradeTags>
       <li>ResourcesRaw</li>
